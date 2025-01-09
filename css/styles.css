@@ -251,3 +251,44 @@ letter-spacing: 0.03em;
 text-align: center;
 
 }
+
+/* footer */
+
+.page-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #2F303A;
+}
+.footer-logo {
+    display: block;
+    margin-bottom: 28px;
+    color: #ffffff;
+}
+
+.address-list .list-item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.address-link {
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #ffffff;
+font-style: normal;
+}
+
+.address-list .contact-link {
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    
+}
+
+.link:hover, 
+.link:focus,
+.contact-link:hover, 
+.contact-link:focus{
+    color: var(--accent-color)
+    }
