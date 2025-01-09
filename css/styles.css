@@ -1,0 +1,134 @@
+:root {
+    --accent-color: #2196F3;
+    --main-text-color: #757575;
+    --title-color: #212121;
+    --main-font-family: Roboto;
+    
+    }
+    
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+    
+    /* common */
+    
+    body {
+    font-size: 14px;
+    color: var(--main-text-color);
+    font-family: var(--main-font-family), sans-serif;
+    }
+    
+    h1,h2,h3,h4,h5,h6,p{
+        margin: 0;
+        
+    }
+    
+    img {
+        display: block;
+    }
+    
+    a {
+    
+        text-decoration: none;
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .section {
+        padding-top: 94px;
+        padding-bottom: 94px;
+        
+    
+    }
+    
+    .container {
+        width: 1200px;
+        margin:0 auto;
+        padding:0 15px;
+        
+    }
+    
+    .section-title {
+    
+        margin-bottom: 50px;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: var(--title-color);
+        
+    }
+    
+    /* header */
+    .page-header{
+        border-bottom: 1px solid #ECECEC}
+    .page-header .container{
+        display: flex;
+        align-items: center;
+    }
+    
+    .page-nav {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo {
+        font-family: Raleway, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    }
+    
+    .header-logo{
+        margin-right: 92px;
+        color: var(--title-color);
+    }
+    
+    .accent-logo {
+        color: var(--accent-color);
+    }
+    
+    .nav-list {
+        margin-right: auto;
+        display: flex;
+    }
+    
+    .contact-list {
+        margin-left: auto;
+        display: flex;
+    }
+    
+    .nav-list .list-item:not(:last-child),
+    .contact-list .list-item:not(:last-child){
+        margin-right: 50px;
+    }
+    
+
+    
+    .nav-link.current {
+        color: var(--accent-color);
+    }
+    
+    .page-header .contact-link, .nav-link{
+        display: block;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        font-weight: 500;
+        line-height: 1.17;
+        letter-spacing: 0.02em;
+        color: var(--main-text-color);
+        
+    }
+
+    .nav-link{
+        color: var(--title-color)
+        
+        }
