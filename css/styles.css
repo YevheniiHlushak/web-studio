@@ -170,3 +170,31 @@ line-height: 1.88;
 letter-spacing: 0.06em;
 cursor: pointer;
 }
+
+/* section advances */
+
+.advances-list {
+    display: flex;
+}
+
+.advances-list .list-item {
+width: 270px;
+}
+
+.advances-list .list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.advances-title {
+margin-bottom: 10px;
+font-weight: 700;
+line-height: 1.72;
+letter-spacing: 0.03em;
+color: var(--title-color)
+}
+
+.advances-description {
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+}
