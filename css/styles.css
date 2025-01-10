@@ -197,6 +197,7 @@ cursor: pointer;
 }
 
 /* section advances */
+
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -246,6 +247,29 @@ letter-spacing: 0.03em;
     display: flex;
     flex-basis: calc((100% - 60px) / 3);
     column-gap: 30px;
+    &>.list-item{
+        position: relative;
+    }
+}
+
+.thumb{
+position: absolute;
+left: 0;
+bottom: 0;
+width: 100%;
+height: 70px;
+padding-top: 27px;
+padding-bottom: 27px;
+background-color: rgba(47, 48, 58, 0.8);
+text-align: center;
+}
+
+.thumb-text {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    line-height: 1.14;
+    color: #ffffff;
 }
 
 /* section team */
