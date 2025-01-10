@@ -303,6 +303,39 @@ text-align: center;
 .social-link:focus .social-icon {
     fill: #ffffff;
 }
+
+/* clients */
+
+.clients-list{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+
+}
+
+.client-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
+    &:hover,
+    &:focus{
+        border-color: var(--accent-color);
+    }
+}
+
+.icon-client{
+    fill: var(--icons-main-color)
+}
+
+.client-link:hover .icon-client,
+.client-link:focus .icon-client{
+    fill: var(--accent-color)
+}
 /* footer */
 
 .page-footer {
@@ -311,6 +344,12 @@ text-align: center;
     margin-right: auto;
     margin-left: auto;
     background-color: #2F303A;
+
+    & .container{
+        display: flex;
+        align-items: baseline;
+        
+    }
 }
 .footer-logo {
     display: block;
@@ -318,8 +357,12 @@ text-align: center;
     color: #ffffff;
 }
 
+.address-warapper{
+    margin-right: 70px;
+}
+
 .address-list .list-item:not(:last-child) {
-    margin-bottom: 9px;
+    margin-bottom: 12px;
 }
 
 .address-link {
@@ -355,6 +398,26 @@ font-style: normal;
 .page-header .contact-link:hover,
 .page-header .contact-link:focus {
   color: var(--accent-color);
+}
+
+.join-title{
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    font-family: var(--main-font-family);
+    color: #ffffff
+}
+
+.page-footer .social-link{
+    background-color: rgba(255, 255, 255, 0.1);
+
+    &:hover,
+    &:focus{
+        background-color: var(--accent-color);
+
+    }
+
 }
 
     /* --- portfolio --- */
