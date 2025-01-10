@@ -121,7 +121,20 @@
 
     
     .nav-link.current {
+        position: relative;
         color: var(--accent-color);
+
+        &::after{
+            position: absolute;
+            left: 0;
+            bottom: -1px;
+            display: block;
+            content: "";
+            width: 100%;
+            height: 4px;
+            border-radius: 2px;
+            background-color: var(--accent-color);
+        }
     }
     
     .page-header .contact-link, .nav-link{
