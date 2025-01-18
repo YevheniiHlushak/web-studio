@@ -492,17 +492,16 @@ ul {
   transition: border-color var(--transition-time-and-function);
 
   &:hover,
-  &:focus{
+  &:focus {
     border-color: var(--accent-color);
 
-    &>.close-icon{
+    & > .close-icon {
       fill: var(--accent-color);
     }
   }
-  
 }
 
-.close-icon{
+.close-icon {
   transition: fill var(--transition-time-and-function);
 }
 
@@ -551,7 +550,7 @@ ul {
   position: absolute;
   left: 12px;
   top: 11px;
-  transition: fill var(--transition-time-and-function)
+  transition: fill var(--transition-time-and-function);
 }
 
 .form-input {
@@ -562,11 +561,11 @@ ul {
   border-radius: 4px;
   transition: border-color var(--transition-time-and-function);
 
-  &:focus{
+  &:focus {
     outline: none;
     border-color: var(--accent-color);
-    
-    & + .input-icon{
+
+    & + .input-icon {
       fill: var(--accent-color);
     }
   }
@@ -586,12 +585,42 @@ ul {
 }
 
 .checkbox {
-  margin-right: 8px;
+  appearance: none;
+  position: absolute;
+
+  &:focus + .custom-checkbox{
+    box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.5);
+  }
+
+  &:checked + .custom-checkbox {
+    border-color: var(--accent-color);
+    background-color: var(--accent-color);
+
+    & > .custom-check-icon {
+      display: block;
+      
+    }
+  }
 }
 
-.conditions{
+.custom-checkbox {
+  width: 16px;
+  height: 15px;
+  margin-right: 8px;
+  border: 2px solid #212121;
+  border-radius: 2px;
+  transition: border-color var(--transition-time-and-function),
+    background-color var(--transition-time-and-function);
+}
+
+.custom-check-icon {
+  display: none;
+  fill: #ffffff;
+}
+
+.conditions {
   color: var(--accent-color);
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 .btn-submit {
