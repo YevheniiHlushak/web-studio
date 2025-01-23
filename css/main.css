@@ -1,6 +1,7 @@
 :root {
   --accent-color: #2196f3;
   --main-text-color: #757575;
+  --secondary--text-color: #ffffff
   --title-color: #212121;
   --icons-main-color: #afb1b8;
   --main-font-size: 14px;
@@ -10,6 +11,14 @@
   --main-letter-spacing: 0.03em;
   --main-line-hight: 1.17;
   --transition-time-and-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero__btn-order {
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: var(--accent-color);
+  color: var(--secondary--text-color);
 }
 
 .visually-hidden {
@@ -544,7 +553,7 @@ ul {
   fill: var(--accent-color);
 }
 
-.section-hero {
+.hero {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -556,7 +565,7 @@ ul {
   background-color: #2f303a;
 }
 
-.hero-title {
+.hero__title {
   margin-right: auto;
   margin-left: auto;
   width: 696px;
@@ -565,22 +574,17 @@ ul {
   font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--secondary--text-color);
   text-transform: uppercase;
 }
 
-.hero-button {
+.hero__btn-order {
   display: inline-block;
   padding: 10px 24px;
-  border: none;
-  border-radius: 4px;
-  background-color: var(--accent-color);
-  color: #ffffff;
   font-size: var(--secondary-font-size);
   font-weight: var(--font-weight-bold);
   line-height: 1.88;
   letter-spacing: 0.06em;
-  cursor: pointer;
 }
 
 .advances-list {
