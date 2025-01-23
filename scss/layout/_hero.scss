@@ -27,7 +27,8 @@
 }
 
 .hero__btn-order {
-  @extend %btn;
+  @extend %btn-form;
+  @extend %btn-color;
   display: inline-block;
   padding: 10px 24px;
   font-size: var(--secondary-font-size);

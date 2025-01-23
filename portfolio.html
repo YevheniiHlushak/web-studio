@@ -61,51 +61,54 @@
     </header>
 
     <main>
-      <section class="page-portfolio section">
+      <section class="portfolio section">
+        <h1 class="visually-hidden">Портфоліо</h1>
+
         <div class="container">
-          <ul class="portfolio-filter">
-            <li class="list-item">
-              <button class="filter-button current" type="button">Усі</button>
+          <ul class="filters__list">
+            <li class="filters__item">
+              <button class="filters__btn current" type="button">Усі</button>
             </li>
-            <li class="list-item">
-              <button class="filter-button" type="button">Веб-сайти</button>
+            <li class="filters__item">
+              <button class="filters__btn" type="button">Веб-сайти</button>
             </li>
-            <li class="list-item">
-              <button class="filter-button" type="button">Додатки</button>
+            <li class="filters__item">
+              <button class="filters__btn" type="button">Додатки</button>
             </li>
-            <li class="list-item">
-              <button class="filter-button" type="button">Дизайн</button>
+            <li class="filters__item">
+              <button class="filters__btn" type="button">Дизайн</button>
             </li>
-            <li class="list-item">
-              <button class="filter-button" type="button">Маркетинг</button>
+            <li class="filters__item">
+              <button class="filters__btn" type="button">Маркетинг</button>
             </li>
           </ul>
 
-          <ul class="product-list">
-            <li class="list-item">
-              <a href="" class="product-link">
-                <div class="img-container">
-                  <p class="product-description overlay">
-                    Ресурс пропонує комплексні пропозиції з різним рівнем
-                    функціоналу та сервісів. Все це дозволить відвідувачу
-                    отримати вичерпні відомості про компанію чи приватну особу.
-                  </p>
+          <ul class="list grid">
+            <li class="grid__item">
+              <a href="" class="product">
+                <div class="product__picture">
                   <img
                     width="370"
                     src="./images/portfolio-img-1.jpg"
                     alt="веб-сайт Технокряк"
                   />
+                  <p class="product__description product__description--overlay">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
+                  </p>
+                  
                 </div>
-                <div class="card-thumb">
-                  <h3 class="card-title">Технокряк</h3>
-                  <p class="card-category">Веб-сайт</p>
+                <div class="product__thumb">
+                  <h3 class="product__title">Технокряк</h3>
+                  <p class="product__category">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="list-item">
-              <a href="" class="product-link">
-                <div class="img-container">
-                  <p class="product-description overlay">
+            <li class="grid__item">
+              <a href="" class="product">
+                <div class="product__picture">
+                  <p class="product__description product__description--overlay">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Molestias quos provident, sapiente placeat commodi soluta
                     nihil voluptate velit explicabo at modi culpa eaque sint
@@ -120,16 +123,16 @@
                     alt="баскетбольний постер"
                   />
                 </div>
-                <div class="card-thumb">
-                  <h3 class="card-title">Постер New Orlean vs Golden Star</h3>
-                  <p class="card-category">Дизайн</p>
+                <div class="product__thumb">
+                  <h3 class="product__title">Постер New Orlean vs Golden Star</h3>
+                  <p class="product__category">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="list-item">
-              <a href="" class="product-link">
-                <div class="img-container">
-                  <p class="product-description overlay">
+            <li class="grid__item">
+              <a href="" class="product">
+                <div class="product__picture">
+                  <p class="product__description product__description--overlay">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Molestias quos provident, sapiente placeat commodi soluta
                     nihil voluptate velit explicabo at modi culpa eaque sint
@@ -144,16 +147,16 @@
                     alt="лого ресторану"
                   />
                 </div>
-                <div class="card-thumb">
-                  <h3 class="card-title">Ресторан Seafood</h3>
-                  <p class="card-category">Додаток</p>
+                <div class="product__thumb">
+                  <h3 class="product__title">Ресторан Seafood</h3>
+                  <p class="product__category">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="list-item">
-              <a href="" class="product-link">
-                <div class="img-container">
-                  <p class="product-description overlay">
+            <li class="grid__item">
+              <a href="" class="product">
+                <div class="product__picture">
+                  <p class="product__description product__description--overlay">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Molestias quos provident, sapiente placeat commodi soluta
                     nihil voluptate velit explicabo at modi culpa eaque sint
@@ -168,16 +171,16 @@
                     alt="навушники"
                   />
                 </div>
-                <div class="card-thumb">
-                  <h3 class="card-title">Проєкт Prime</h3>
-                  <p class="card-category">Маркетинг</p>
+                <div class="product__thumb">
+                  <h3 class="product__title">Проєкт Prime</h3>
+                  <p class="product__category">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="list-item">
-              <a href="" class="product-link">
-                <div class="img-container">
-                  <p class="product-description overlay">
+            <li class="grid__item">
+              <a href="" class="product">
+                <div class="product__picture">
+                  <p class="product__description product__description--overlay">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Molestias quos provident, sapiente placeat commodi soluta
                     nihil voluptate velit explicabo at modi culpa eaque sint
@@ -192,16 +195,16 @@
                     alt="коробки"
                   />
                 </div>
-                <div class="card-thumb">
-                  <h3 class="card-title">Проєкт Boxes</h3>
-                  <p class="card-category">Додаток</p>
+                <div class="product__thumb">
+                  <h3 class="product__title">Проєкт Boxes</h3>
+                  <p class="product__category">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="list-item">
-              <a href="" class="product-link">
-                <div class="img-container">
-                  <p class="product-description overlay">
+            <li class="grid__item">
+              <a href="" class="product">
+                <div class="product__picture">
+                  <p class="product__description product__description--overlay">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Molestias quos provident, sapiente placeat commodi soluta
                     nihil voluptate velit explicabo at modi culpa eaque sint
@@ -216,16 +219,16 @@
                     alt="монітор із відкритим веб-сайтом"
                   />
                 </div>
-                <div class="card-thumb">
-                  <h3 class="card-title">Inspiration has no Borders</h3>
-                  <p class="card-category">Веб-сайт</p>
+                <div class="product__thumb">
+                  <h3 class="product__title">Inspiration has no Borders</h3>
+                  <p class="product__category">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="list-item">
-              <a href="" class="product-link">
-                <div class="img-container">
-                  <p class="product-description overlay">
+            <li class="grid__item">
+              <a href="" class="product">
+                <div class="product__picture">
+                  <p class="product__description product__description--overlay">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Molestias quos provident, sapiente placeat commodi soluta
                     nihil voluptate velit explicabo at modi culpa eaque sint
@@ -240,16 +243,16 @@
                     alt="відкрита книга"
                   />
                 </div>
-                <div class="card-thumb">
-                  <h3 class="card-title">Видання Limited Edition</h3>
-                  <p class="card-category">Дизайн</p>
+                <div class="product__thumb">
+                  <h3 class="product__title">Видання Limited Edition</h3>
+                  <p class="product__category">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="list-item">
-              <a href="" class="product-link">
-                <div class="img-container">
-                  <p class="product-description overlay">
+            <li class="grid__item">
+              <a href="" class="product">
+                <div class="product__picture">
+                  <p class="product__description product__description--overlay">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Molestias quos provident, sapiente placeat commodi soluta
                     nihil voluptate velit explicabo at modi culpa eaque sint
@@ -264,16 +267,16 @@
                     alt="етикетка"
                   />
                 </div>
-                <div class="card-thumb">
-                  <h3 class="card-title">Проєкт LAB</h3>
-                  <p class="card-category">Маркетинг</p>
+                <div class="product__thumb">
+                  <h3 class="product__title">Проєкт LAB</h3>
+                  <p class="product__category">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="list-item">
-              <a href="" class="product-link">
-                <div class="img-container">
-                  <p class="product-description overlay">
+            <li class="grid__item">
+              <a href="" class="product">
+                <div class="product__picture">
+                  <p class="product__description product__description--overlay">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Molestias quos provident, sapiente placeat commodi soluta
                     nihil voluptate velit explicabo at modi culpa eaque sint
@@ -288,9 +291,9 @@
                     alt="відкритий ноутбук"
                   />
                 </div>
-                <div class="card-thumb">
-                  <h3 class="card-title">Growing Business</h3>
-                  <p class="card-category">Додаток</p>
+                <div class="product__thumb">
+                  <h3 class="product__title">Growing Business</h3>
+                  <p class="product__category">Додаток</p>
                 </div>
               </a>
             </li>

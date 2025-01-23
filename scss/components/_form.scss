@@ -114,7 +114,8 @@
 }
 
 .btn-submit {
-  @extend %btn;
+  @extend %btn-form;
+  @extend %btn-color;
   margin-top: 30px;
   width: 200px;
   height: 50px;
