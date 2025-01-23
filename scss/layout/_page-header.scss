@@ -53,7 +53,7 @@
  .contacts__link {
    align-items: center;
    color: var(--main-text-color);
-   transition: color var(--transition-time-and-function);
+ 
  }
 
 .link--header {
@@ -63,13 +63,13 @@
   font-weight: 500;
   line-height: var(--main-line-hight);
   letter-spacing: 0.02em;
-  transition: color var(--transition-time-and-function);
+
 }
 
 
 .contacts__icon {
   margin-right: 10px;
-  fill:var(--main-text-color);
+  fill: currentColor;
   transition: fill var(--transition-time-and-function);
 
 

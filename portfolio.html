@@ -298,82 +298,94 @@
         </div>
       </section>
     </main>
-    <footer class="page-footer">
-      <div class="container">
-        <div class="address-warapper">
-          <a class="logo footer-logo" href="/index.html"
-            ><span class="accent-logo">Web</span>Studio</a
+    <footer class="footer">
+      <div class="container footer--container">
+        <div class="address">
+          <a class="logo footer__logo" href="/index.html"
+            ><span class="logo--accent">Web</span>Studio</a
           >
 
+          <!----- Address ----->
+
           <address>
-            <ul class="list address-list">
-              <li class="list-item">
+            <ul class="list address__list">
+              <li class="address__item">
                 <a
-                  class="address-link link"
+                  class="address__link address__link--coordinates link"
                   href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li class="list-item">
-                <a class="contact-link" href="mailto::info@devstudio.com"
+              <li class="address__item">
+                <a
+                  class="address__link address__link--contact link"
+                  href="mailto::info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="list-item">
-                <a class="contact-link" href="tel:380961111111"
+              <li class="address__item">
+                <a
+                  class="address__link address__link--contact link"
+                  href="tel:380961111111"
                   >+38 096 111 11 11</a
                 >
               </li>
             </ul>
           </address>
         </div>
+
+        <!----- Social-media ----->
+
         <div class="join">
-          <h2 class="join-title">приєднуйтесь</h2>
-          <ul class="social-list list">
-            <li class="social-item">
-              <a class="social-link link" href="">
-                <svg width="20" height="20" class="social-icon">
+          <p class="join__title">приєднуйтесь</p>
+          <ul class="socials__list list">
+            <li class="socials__item">
+              <a class="socials__link socials__link--join link" href="">
+                <svg width="20" height="20" class="socials__icon">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-item">
-              <a class="social-link link" href="">
-                <svg width="20" height="20" class="social-icon">
+            <li class="socials__item">
+              <a class="socials__link socials__link--join link" href="">
+                <svg width="20" height="20" class="socials__icon">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-item">
-              <a class="social-link link" href="">
-                <svg width="20" height="20" class="social-icon">
+            <li class="socials__item">
+              <a class="socials__link socials__link--join link" href="">
+                <svg width="20" height="20" class="socials__icon">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-item">
-              <a class="social-link link" href="">
-                <svg width="20" height="20" class="social-icon">
+            <li class="socials__item">
+              <a class="socials__link socials__link--join link" href="">
+                <svg width="20" height="20" class="socials__icon">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <form class="subscribe-form">
-          <p class="subscribe-title">підпишіться на розсилку</p>
-          <div class="input-container">
+
+        <!----- Subscribe  ----->
+
+        <form class="subscribe">
+          <p class="subscribe__title">підпишіться на розсилку</p>
+          <div class="subscribe__container">
             <label
               ><input
-                class="subscribe-field"
+                class="subscribe__input"
                 type="email"
                 required
                 placeholder="E-mail"
             /></label>
-            <button class="subscribe-btn" type="submit">
-              підписатися<svg class="send-icon" width="24" height="24">
+            <button class="subscribe__btn" type="submit">
+              підписатися<svg class="subscribe__icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>

@@ -1,4 +1,8 @@
+.link {
+  transition: var(--transition-time-and-function);
+}
+
 .link:hover,
 .link:focus {
-  transition: color var(--accent-color);
+  color: var(--accent-color);
 }
