@@ -7,13 +7,7 @@
 
   animation: logoAppearance 1500ms ease-in, logoTransform 1500ms ease-out;
 }
-
-.header-logo {
-  margin-right: 92px;
-  color: var(--title-color);
-}
-
-.accent-logo {
+.logo--accent {
   color: var(--accent-color);
 }
 

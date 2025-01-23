@@ -1,71 +1,63 @@
-.page-footer {
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
   margin-right: auto;
   margin-left: auto;
   background-color: #2f303a;
 
-  & .container {
-    display: flex;
-    align-items: baseline;
-  }
-}
-.footer-logo {
-  display: block;
-  margin-bottom: 28px;
-  color: #ffffff;
 }
 
-.address-warapper {
+.footer--container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer__logo {
+  display: block;
+  margin-bottom: 28px;
+  color: var(--secondary-text-color);
+}
+
+.address {
   margin-right: 70px;
 }
 
-.address-list .list-item:not(:last-child) {
-  margin-bottom: 12px;
+.address__item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
-.address-link {
-  line-height: 1.71;
+.address__link {
+  font-style: normal;
   letter-spacing: var(--main-letter-spacing);
-  color: #ffffff;
-  font-style: normal;
 }
 
-.address-list .contact-link {
-  font-style: normal;
+
+.address__link--coordinates {
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
+
+.address__link--contact {
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.14;
-  letter-spacing: var(--main-letter-spacing);
 }
 
-.link:hover,
-.link:focus {
-  color: var(--accent-color);
-  transition: color var(--transition-time-and-function);
-}
-
-.contact-icon {
-  margin-right: 10px;
-  fill: currentColor;
-  transition: fill var(--transition-time-and-function);
-}
+/*========= Social-media ==========*/
 
 .join {
   margin-right: 93px;
 }
 
-.join-title {
+.join__title {
   margin-bottom: 20px;
-  font-weight: var(--font-weight-bold);
   line-height: 1.14;
+  font-weight: var(--font-weight-bold);
+  color: var(--secondary-text-color);
   text-transform: uppercase;
-
-  color: #ffffff;
 }
 
-.page-footer .social-link {
+.socials__link--join {
   background-color: rgba(255, 255, 255, 0.1);
-  transition: background-color var(--transition-time-and-function);
 
   &:hover,
   &:focus {
@@ -73,21 +65,23 @@
   }
 }
 
-.subscribe-title {
+/*=========== Subscribe ==============*/
+
+.subscribe__title {
   margin-bottom: 20px;
   font-size: 14px;
   font-weight: var(--font-weight-bold);
   line-height: 1.71;
   letter-spacing: var(--main-letter-spacing);
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--secondary-text-color);
 }
 
-.input-container {
+.subscribe__container {
   display: flex;
 }
 
-.subscribe-field {
+.subscribe__input {
   width: 358px;
   height: 50px;
   padding: 15px 16px;
@@ -95,7 +89,7 @@
   border-radius: 4px;
   background-color: #2f303a;
   margin-right: 12px;
-  color: #ffffff;
+  color: var(--secondary-text-color);
 
   &::placeholder {
     font-size: var(--secondary-font-size);
@@ -104,7 +98,9 @@
   }
 }
 
-.subscribe-btn {
+.subscribe__btn {
+  @extend %btn-form;
+  @extend %btn-color;
   width: 200px;
   height: 50px;
   padding: 0;
@@ -116,15 +112,10 @@
   line-height: 1.86;
   letter-spacing: 0.06em;
   text-transform: capitalize;
-  color: #ffffff;
-  background-color: var(--accent-color);
-  border: none;
-  border-radius: 4px;
   box-shadow: 0px 4px 4px 0px #00000026;
-  cursor: pointer;
 }
 
-.send-icon {
+.subscribe__icon {
   margin-left: 10px;
   fill: #ffffff;
 }
