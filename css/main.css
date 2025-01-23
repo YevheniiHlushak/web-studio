@@ -627,7 +627,11 @@ ul {
   letter-spacing: var(--main-letter-spacing);
 }
 
-.tasks-list {
+.tasks {
+  padding-top: 0;
+}
+
+.tasks__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -637,11 +641,11 @@ ul {
      -moz-column-gap: 30px;
           column-gap: 30px;
 }
-.tasks-list > .list-item {
+.tasks__list > .tasks__item {
   position: relative;
 }
 
-.thumb {
+.tasks__thumb {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -653,12 +657,12 @@ ul {
   text-align: center;
 }
 
-.thumb-text {
+.tasks__label {
   text-transform: uppercase;
   font-weight: var(--font-weight-bold);
   letter-spacing: var(--main-letter-spacing);
   line-height: 1.14;
-  color: #ffffff;
+  color: var(--secondary-text-color);
 }
 
 .section-team {
