@@ -1,10 +1,13 @@
-.clients-list {
+
+.clients__list {
+
   display: flex;
   justify-content: center;
   column-gap: 30px;
+
 }
 
-.client-link {
+.clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,12 +23,12 @@
   }
 }
 
-.icon-client {
+.clients__icon {
   fill: var(--icons-main-color);
   transition: fill var(--transition-time-and-function);
-}
 
-.client-link:hover .icon-client,
-.client-link:focus .icon-client {
-  fill: var(--accent-color);
+  .clients__link:hover &,
+  .clients__link:focus & {
+    fill: var(--accent-color);
+  }
 }

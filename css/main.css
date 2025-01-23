@@ -705,7 +705,7 @@ ul {
   background-color: #ffffff;
 }
 
-.clients-list {
+.clients__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -717,7 +717,7 @@ ul {
           column-gap: 30px;
 }
 
-.client-link {
+.clients__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -734,18 +734,16 @@ ul {
   -webkit-transition: border-color var(--transition-time-and-function);
   transition: border-color var(--transition-time-and-function);
 }
-.client-link:hover, .client-link:focus {
+.clients__link:hover, .clients__link:focus {
   border-color: var(--accent-color);
 }
 
-.icon-client {
+.clients__icon {
   fill: var(--icons-main-color);
   -webkit-transition: fill var(--transition-time-and-function);
   transition: fill var(--transition-time-and-function);
 }
-
-.client-link:hover .icon-client,
-.client-link:focus .icon-client {
+.clients__link:hover .clients__icon, .clients__link:focus .clients__icon {
   fill: var(--accent-color);
 }
 
