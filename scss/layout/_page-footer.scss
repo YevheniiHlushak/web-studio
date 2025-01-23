@@ -1,0 +1,130 @@
+.page-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #2f303a;
+
+  & .container {
+    display: flex;
+    align-items: baseline;
+  }
+}
+.footer-logo {
+  display: block;
+  margin-bottom: 28px;
+  color: #ffffff;
+}
+
+.address-warapper {
+  margin-right: 70px;
+}
+
+.address-list .list-item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.address-link {
+  line-height: 1.71;
+  letter-spacing: var(--main-letter-spacing);
+  color: #ffffff;
+  font-style: normal;
+}
+
+.address-list .contact-link {
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.14;
+  letter-spacing: var(--main-letter-spacing);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+  transition: color var(--transition-time-and-function);
+}
+
+.contact-icon {
+  margin-right: 10px;
+  fill: currentColor;
+  transition: fill var(--transition-time-and-function);
+}
+
+.join {
+  margin-right: 93px;
+}
+
+.join-title {
+  margin-bottom: 20px;
+  font-weight: var(--font-weight-bold);
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.page-footer .social-link {
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color var(--transition-time-and-function);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+}
+
+.subscribe-title {
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: var(--font-weight-bold);
+  line-height: 1.71;
+  letter-spacing: var(--main-letter-spacing);
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.input-container {
+  display: flex;
+}
+
+.subscribe-field {
+  width: 358px;
+  height: 50px;
+  padding: 15px 16px;
+  border: 1px solid #ffffff4d;
+  border-radius: 4px;
+  background-color: #2f303a;
+  margin-right: 12px;
+  color: #ffffff;
+
+  &::placeholder {
+    font-size: var(--secondary-font-size);
+    line-height: 1.25;
+    letter-spacing: var(--main-letter-spacing);
+  }
+}
+
+.subscribe-btn {
+  width: 200px;
+  height: 50px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--secondary-font-size);
+  font-weight: var(--font-weight-bold);
+  line-height: 1.86;
+  letter-spacing: 0.06em;
+  text-transform: capitalize;
+  color: #ffffff;
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px #00000026;
+  cursor: pointer;
+}
+
+.send-icon {
+  margin-left: 10px;
+  fill: #ffffff;
+}

@@ -1,0 +1,29 @@
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  font-weight: var(--font-weight-bold);
+  line-height: var(--main-line-hight);
+  letter-spacing: var(--main-letter-spacing);
+
+  animation: logoAppearance 1500ms ease-in, logoTransform 1500ms ease-out;
+}
+
+.header-logo {
+  margin-right: 92px;
+  color: var(--title-color);
+}
+
+.accent-logo {
+  color: var(--accent-color);
+}
+
+@keyframes logoAppearance {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+@keyframes logoTransform{
+  from{transform: translateX(-100%);}
+  50%{transform: translateX(50%);}
+  to{transform: translateX(0)}
+}
