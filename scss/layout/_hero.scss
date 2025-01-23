@@ -1,0 +1,41 @@
+.section-hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/bg-img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #2f303a;
+}
+
+.hero-title {
+  margin-right: auto;
+  margin-left: auto;
+  width: 696px;
+  margin-bottom: 30px;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  display: inline-block;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--accent-color);
+  color: #ffffff;
+  font-size: var(--secondary-font-size);
+  font-weight: var(--font-weight-bold);
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
