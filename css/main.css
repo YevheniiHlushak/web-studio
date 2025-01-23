@@ -151,7 +151,7 @@ ul {
             transform: translateX(0);
   }
 }
-.social-list {
+.socials__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -161,7 +161,7 @@ ul {
   gap: 10px;
 }
 
-.social-link {
+.socials__link {
   width: 44px;
   height: 44px;
   display: -webkit-box;
@@ -174,22 +174,19 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 50%;
-  background-color: #fff;
   -webkit-transition: background-color var(--transition-time-and-function);
   transition: background-color var(--transition-time-and-function);
 }
-.social-link:hover, .social-link:focus {
+.socials__link:hover, .socials__link:focus {
   background-color: var(--accent-color);
 }
 
-.social-icon {
+.socials__icon {
   fill: var(--icons-main-color);
   -webkit-transition: fill var(--transition-time-and-function);
   transition: fill var(--transition-time-and-function);
 }
-
-.social-link:hover .social-icon,
-.social-link:focus .social-icon {
+.socials__link:hover .socials__icon, .socials__link:focus .socials__icon {
   fill: #ffffff;
 }
 
@@ -665,11 +662,11 @@ ul {
   color: var(--secondary-text-color);
 }
 
-.section-team {
+.team {
   background: #f5f4fa;
 }
 
-.team-list {
+.team__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -678,30 +675,34 @@ ul {
           column-gap: 30px;
 }
 
-.team-list .list-item {
-  background-color: #fff;
+.team__member {
+  background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
 }
 
-.wrapper {
+.team__card-description {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.member-name {
+.team__name {
   margin-bottom: 10px;
   text-align: center;
   color: var(--title-color);
 }
 
-.member-position {
+.team__position {
   margin-bottom: 16px;
   font-size: var(--secondary-font-size);
   line-height: 1.11;
   letter-spacing: var(--main-letter-spacing);
   text-align: center;
+}
+
+.socials__link--team {
+  background-color: #ffffff;
 }
 
 .clients-list {
