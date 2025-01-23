@@ -1,20 +1,20 @@
-.advances-list {
+.advantages__list {
     display: flex;
     flex-basis: calc((100% - 90px) / 4);
     column-gap: 30px;
   }
   
-  .icon-thumb {
-    height: 120px;
-    margin-bottom: 30px;
+  .advantages__icon {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 120px;
+    margin-bottom: 30px;
     background-color: #f5f4fa;
     border-radius: 4px;
   }
   
-  .advances-title {
+  .advantages__title {
     margin-bottom: 10px;
     font-weight: var(--font-weight-bold);
     line-height: 1.72;
@@ -22,7 +22,7 @@
     color: var(--title-color);
   }
   
-  .advances-description {
+  .advantages__description {
     line-height: 1.71;
     letter-spacing: var(--main-letter-spacing);
   }

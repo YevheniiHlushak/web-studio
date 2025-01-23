@@ -1,7 +1,7 @@
 :root {
   --accent-color: #2196f3;
   --main-text-color: #757575;
-  --secondary--text-color: #ffffff
+  --secondary-text-color: #ffffff;
   --title-color: #212121;
   --icons-main-color: #afb1b8;
   --main-font-size: 14px;
@@ -18,7 +18,7 @@
   border-radius: 4px;
   cursor: pointer;
   background-color: var(--accent-color);
-  color: var(--secondary--text-color);
+  color: var(--secondary-text-color);
 }
 
 .visually-hidden {
@@ -574,7 +574,7 @@ ul {
   font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  color: var(--secondary--text-color);
+  color: var(--secondary-text-color);
   text-transform: uppercase;
 }
 
@@ -587,7 +587,7 @@ ul {
   letter-spacing: 0.06em;
 }
 
-.advances-list {
+.advantages__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -598,9 +598,7 @@ ul {
           column-gap: 30px;
 }
 
-.icon-thumb {
-  height: 120px;
-  margin-bottom: 30px;
+.advantages__icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -610,11 +608,13 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 120px;
+  margin-bottom: 30px;
   background-color: #f5f4fa;
   border-radius: 4px;
 }
 
-.advances-title {
+.advantages__title {
   margin-bottom: 10px;
   font-weight: var(--font-weight-bold);
   line-height: 1.72;
@@ -622,7 +622,7 @@ ul {
   color: var(--title-color);
 }
 
-.advances-description {
+.advantages__description {
   line-height: 1.71;
   letter-spacing: var(--main-letter-spacing);
 }
