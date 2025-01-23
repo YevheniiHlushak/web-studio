@@ -5,3 +5,15 @@
   background-color: var(--accent-color);
   color: var(--secondary-text-color);
 }
+
+%input {
+  border: 1px solid #21212133;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: border-color var(--transition-time-and-function);
+  &:focus {
+    outline: none;
+    border-color: var(--accent-color);
+
+  }
+}
